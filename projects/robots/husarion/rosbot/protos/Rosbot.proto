@@ -5,13 +5,13 @@
 # keywords: robot/wheeled
 # A ROS powered 4x4 drive autonomous mobile robot platform equipped with various sensors.
 
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/GlossyPaint.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/MattePaint.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BrushedAluminium.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Rubber.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/tdk/protos/Mpu-9250.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/slamtec/protos/RpLidarA2.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/orbbec/protos/Astra.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/appearances/protos/MattePaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/appearances/protos/Rubber.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/devices/tdk/protos/Mpu-9250.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/devices/slamtec/protos/RpLidarA2.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/devices/orbbec/protos/Astra.proto"
 
 PROTO Rosbot [
   field  SFVec3f     translation     0 0 0
@@ -46,7 +46,7 @@ PROTO Rosbot [
               baseColor 1.000000 1.000000 1.000000
             }
             geometry Mesh {
-              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/body.obj"
+              url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/body.obj"
             }
           }
         ]
@@ -60,7 +60,7 @@ PROTO Rosbot [
               baseColor 0.000000 0.000000 0.000000
             }
             geometry Mesh {
-              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/black_ports.obj"
+              url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/black_ports.obj"
             }
           }
         ]
@@ -76,7 +76,7 @@ PROTO Rosbot [
               IBLStrength 1
             }
             geometry Mesh {
-              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/metallic_connections.obj"
+              url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/metallic_connections.obj"
             }
           }
         ]
@@ -138,7 +138,7 @@ PROTO Rosbot [
                   baseColor 0.000000 0.000000 0.000000
                 }
                 geometry Mesh {
-                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
+                  url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
                 }
               }
             ]
@@ -294,7 +294,7 @@ PROTO Rosbot [
                   IBLStrength 1
                 }
                 geometry Mesh {
-                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
+                  url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
                 }
               }
             ]
@@ -363,7 +363,7 @@ PROTO Rosbot [
                   baseColor 0.800000 0.000000 0.000000
                 }
                 geometry Mesh {
-                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/cover.obj"
+                  url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/cover.obj"
                 }
               }
             ]
@@ -465,7 +465,7 @@ PROTO Rosbot [
                         IBLStrength 1
                       }
                       geometry Mesh {
-                        url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/wheel_rim.obj"
+                        url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/wheel_rim.obj"
                       }
                     }
                     DEF TIRE_SHAPE Shape {
@@ -473,7 +473,7 @@ PROTO Rosbot [
                         type "flat"
                       }
                       geometry Mesh {
-                        url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/wheel_tire.obj"
+                        url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/wheel_tire.obj"
                       }
                     }
                   ]
@@ -621,7 +621,7 @@ PROTO Rosbot [
               baseColor 0.000000 0.000000 0.000000
             }
             geometry Mesh {
-              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/proximity_sensors.obj"
+              url "https://raw.githubusercontent.com/BharathiRamalinga/webots/refs/heads/main/projects/robots/husarion/rosbot/protos/meshes/proximity_sensors.obj"
             }
           }
         ]
