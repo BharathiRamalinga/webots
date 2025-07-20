@@ -1,23 +1,23 @@
-#VRML_SIM R2025a utf8
-# license: Copyright Cyberbotics Ltd. Licensed for use only with webots-1-1.
-# license url: https://cyberbotics.com/webots-1_assets_license
-# documentation url: https://webots-1.cloud/run?url=https://github.com/cyberbotics/webots-1/blob/released/projects/robots/husarion/rosbot/protos/Rosbot.proto
+#VRML_SIM R2023b utf8
+# license: Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+# license url: https://cyberbotics.com/webots_assets_license
+# documentation url: https://webots.cloud/run?url=https://github.com/cyberbotics/webots/blob/released/projects/robots/husarion/rosbot/protos/Rosbot.proto
 # keywords: robot/wheeled
 # A ROS powered 4x4 drive autonomous mobile robot platform equipped with various sensors.
 
-EXTERNPROTO "webots://projects/appearances/protos/GlossyPaint.proto"
-EXTERNPROTO "webots://projects/appearances/protos/MattePaint.proto"
-EXTERNPROTO "webots://projects/appearances/protos/BrushedAluminium.proto"
-EXTERNPROTO "webots://projects/appearances/protos/Rubber.proto"
-EXTERNPROTO "webots://projects/devices/tdk/protos/Mpu-9250.proto"
-EXTERNPROTO "webots://projects/devices/slamtec/protos/RpLidarA2.proto"
-EXTERNPROTO "webots://projects/devices/orbbec/protos/Astra.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/MattePaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Rubber.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/tdk/protos/Mpu-9250.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/slamtec/protos/RpLidarA2.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/orbbec/protos/Astra.proto"
 
 PROTO Rosbot [
   field  SFVec3f     translation     0 0 0
   field  SFRotation  rotation        0 0 1 0
   field  SFString    name            "rosbot"  # Is `Robot.name`.
-  field  SFString    controller      "rosbot"  # Is `Robot.controller`.
+  field  SFString    controller      "<generic>" # Is `Robot.controller`.
   field  MFString    controllerArgs  []        # Is `Robot.controllerArgs`.
   field  SFString    customData      ""        # Is `Robot.customData`.
   field  SFBool      supervisor      FALSE     # Is `Robot.supervisor`.
@@ -46,7 +46,7 @@ PROTO Rosbot [
               baseColor 1.000000 1.000000 1.000000
             }
             geometry Mesh {
-              url "meshes/body.obj"
+              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/body.obj"
             }
           }
         ]
@@ -60,7 +60,7 @@ PROTO Rosbot [
               baseColor 0.000000 0.000000 0.000000
             }
             geometry Mesh {
-              url "meshes/black_ports.obj"
+              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/black_ports.obj"
             }
           }
         ]
@@ -76,7 +76,7 @@ PROTO Rosbot [
               IBLStrength 1
             }
             geometry Mesh {
-              url "meshes/metallic_connections.obj"
+              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/metallic_connections.obj"
             }
           }
         ]
@@ -138,7 +138,7 @@ PROTO Rosbot [
                   baseColor 0.000000 0.000000 0.000000
                 }
                 geometry Mesh {
-                  url "meshes/screw.obj"
+                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
                 }
               }
             ]
@@ -294,7 +294,7 @@ PROTO Rosbot [
                   IBLStrength 1
                 }
                 geometry Mesh {
-                  url "meshes/screw.obj"
+                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/screw.obj"
                 }
               }
             ]
@@ -363,7 +363,7 @@ PROTO Rosbot [
                   baseColor 0.800000 0.000000 0.000000
                 }
                 geometry Mesh {
-                  url "meshes/cover.obj"
+                  url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/cover.obj"
                 }
               }
             ]
@@ -465,7 +465,7 @@ PROTO Rosbot [
                         IBLStrength 1
                       }
                       geometry Mesh {
-                        url "meshes/wheel_rim.obj"
+                        url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/wheel_rim.obj"
                       }
                     }
                     DEF TIRE_SHAPE Shape {
@@ -473,7 +473,7 @@ PROTO Rosbot [
                         type "flat"
                       }
                       geometry Mesh {
-                        url "meshes/wheel_tire.obj"
+                        url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/wheel_tire.obj"
                       }
                     }
                   ]
@@ -621,7 +621,7 @@ PROTO Rosbot [
               baseColor 0.000000 0.000000 0.000000
             }
             geometry Mesh {
-              url "meshes/proximity_sensors.obj"
+              url "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/meshes/proximity_sensors.obj"
             }
           }
         ]
